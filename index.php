@@ -34,7 +34,7 @@ include "functions.php"
 			<td><?= $row['alamat']; ?></td>
 			<td>
 				<a href="edit.php" class="btn btn-primary">Edit</a> |
-				<a href="hapus.php?id=<?= $row["id"]; ?>" class="btn btn-danger">Hapus</a>
+				<a href="hapus.php" class="btn btn-danger">Hapus</a>
 			</td>
 		</tr>
 		<?php  
